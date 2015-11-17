@@ -1,0 +1,399 @@
+*, *:before *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::-ms-clear{
+  display: none;
+}
+
+::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  font-family: Geneva, Verdana, Georgia, sans-serif;
+  font-size: 18px;
+  background-color: #000;
+  color: #FFF;
+}
+
+header {
+  height: 950px;
+  background: url(../images/jkomoon.jpg) center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+#Name{
+  font-family: Monaco, sans-serif;
+  margin-top: 45%;
+  text-align: center;
+  color: #FFF;
+  font-size: 50px;
+}
+
+#nav {
+  position: fixed;
+  width:100%;
+  background: transparent;
+  z-index: 1;
+}
+
+#navWrapper {
+  margin: 0 auto;
+  text-align: left;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+#nav ul li {
+  display: inline-block;
+}
+
+#nav ul li:hover {
+  background-color: #333;
+}
+
+#nav ul li a,visited {
+  color: #ccc;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#nav ul li a:hover {
+  color: #ccc;
+  text-decoration: none;
+}
+
+#nav ul li:hover ul {
+  display: block;
+}
+
+#nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #333;
+}
+
+#nav ul ul li {
+  display: block;
+}
+
+#nav ul ul li a, visited {
+  color: #ccc;
+}
+
+#nav ul ul li a:hover {
+  background-color: #FFF;
+  color: #145AA1;
+}
+
+.AboutColLeft h1 {
+  font-family: Monaco, monospace;
+  text-align: center;
+  font-weight: bold;
+}
+
+#AboutMe {
+  padding-top: 3%;
+  padding-left: 6%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  background-color: #2B2929;
+  height: auto;
+  overflow-y: scroll;
+}
+
+.AboutColLeft {
+  float: left;
+  width: 50%;
+}
+
+.AboutColRight {
+  float: right;
+  margin-top: 3%;
+  width: 300px;
+  height: 300px;
+}
+
+.CircleHolder1{
+  height: 100%;
+  width: 100%;
+  background: url(../images/Jinko01.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+.CircleHolder2{
+  height: 100%;
+  width: 100%;
+  background: url(../images/Jinko02.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+.CircleHolder3{
+  height: 100%;
+  width: 100%;
+  background: url(../images/Jinko03.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+#Projects {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  background-color: #555353;
+  overflow-y: scroll;
+}
+
+#Projects h1{
+  font-family: Monaco, monospace;
+  font-weight: bold;
+  text-indent: 5%;
+}
+
+.containerProjects {
+  position: relative;
+  width: 85%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0 auto;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.btn {
+  padding: 0;
+  margin: 1%;
+  border: none;
+  outline: none;
+  background: transparent;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+}
+
+.btn:hover {
+  background: transparent;
+  outline: none;
+}
+
+.btn:enabled {
+  background: transparent;
+  outline: none;
+}
+
+.modal-content {
+  background-color: #2D2E2F;
+}
+
+.modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.modal-body {
+  font-family: Arial, sans-serif;
+}
+
+#flip-container {
+  width: 300px;
+  height: 300px;
+}
+
+#flip-container {
+  perspective: 1000;
+}
+
+#flipper-card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+
+#flip-container:hover #flipper-card {
+  transform: rotateY(180deg);
+}
+
+.front-face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.back-face {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 5%;
+  color: white;
+  font-size: 0.7em;
+  background-color: #aaa;
+  text-align: center;
+  word-wrap: break-word;
+  word-break: keep-all;
+  white-space: normal;
+}
+
+.back-face h3 {
+  font-family: Monaco, monospace;
+}
+
+.back-face p {
+  font-family: Geneva, serif;
+  font-size: 14px;
+}
+
+#Contact {
+  padding-top: 10%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 15%;
+  background-color: #706D6D;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container:first-of-type {
+  top: 5%;
+}
+
+.container  h1{
+  font-family: Monaco, monospace;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.close {
+  color: #fff;
+  opacity: 1;
+}
+
+#contactform {
+  background-color: #363434;
+  padding: 3%;
+  border: 1px solid: #EEE;
+  -webkit-box-shadow: 0px 2px 3px #DDD;
+  -moz-box-shadow: 0px 2px 3px #DDD;
+  box-shadow: 0px 2px 3px #DDD;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#contactform input[type=text],
+#contactform input[type=email],
+#contactform input[type=submit],
+#contactform textarea {
+  width: 100%;
+  height: 40px;
+  display: block;
+  padding: 5px 10px;
+  border: 2px solid #DDD;
+  color: #222;
+  margin-bottom: 3%;
+}
+
+#contactform textarea {
+  height: 200px;
+  font-family: Arial, sans-serif;
+}
+
+#contactform input[type=submit] {
+  width: 200px;
+  margin-bottom: 0;
+  background-color: #FFF;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#contactform input[type=submit]:hover {
+  background-color: #243951;
+  color: #FFF;
+  border-color: #FFF;
+}
+
+h2.success {
+  color: #FFF;
+  margin-bottom: 20px;
+}
+
+.errorlist {
+  list.style: none;
+}
+
+label.error,
+.errorlist li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #FFF;
+  display: block;
+}
+
+.errorlist li:last-child {
+  margin-bottom: 20px;
+}
+
+
+footer {
+  background-color: #1B1A1A;
+  font-family: Monaco, monospace;
+  padding: 3%;
+  text-align: center;
+  font-size: 65%;
+  overflow:hidden;
+}
+
+footer nav a {
+  padding: 1%;
+}
