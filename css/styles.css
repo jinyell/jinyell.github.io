@@ -1,13 +1,11 @@
 *, *:before *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  padding-right: 17px;
   box-sizing: border-box;
 }
 
 ::-ms-clear{
   display: none;
-  overflow: scroll;
 }
 
 ::-webkit-search-cancel-button {
