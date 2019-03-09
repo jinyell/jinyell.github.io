@@ -23,18 +23,18 @@ body {
 }
 
 header {
-  height: 950px;
+  height: 700px;
   background: url(../images/jkomoon.jpg) center;
   background-size: cover;
   background-attachment: fixed;
   padding: 0;
   margin: 0;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 #Name{
   font-family: Monaco, sans-serif;
-  margin-top: 15%;
+  margin-top: 45%;
   text-align: center;
   color: #FFF;
   font-size: 50px;
@@ -328,7 +328,7 @@ footer {
   padding: 3%;
   text-align: center;
   font-size: 80%;
-  overflow: scroll;
+  overflow:hidden;
 }
 
 footer nav a {
