@@ -6,6 +6,7 @@
 
 ::-ms-clear{
   display: none;
+  overflow: hidden;
 }
 
 ::-webkit-search-cancel-button {
@@ -34,7 +35,7 @@ header {
 
 #Name{
   font-family: Monaco, sans-serif;
-  margin-top: 65%;
+  margin-top: 45%;
   text-align: center;
   color: #FFF;
   font-size: 50px;
