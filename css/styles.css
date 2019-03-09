@@ -23,13 +23,13 @@ body {
 }
 
 header {
-  height: 700px;
+  height: 950px;
   background: url(../images/jkomoon.jpg) center;
   background-size: cover;
   background-attachment: fixed;
   padding: 0;
   margin: 0;
-  overflow-y: scroll;
+  overflow-y: fixed;
 }
 
 #Name{
