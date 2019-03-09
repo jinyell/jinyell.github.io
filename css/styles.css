@@ -7,7 +7,7 @@
 
 ::-ms-clear{
   display: none;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 ::-webkit-search-cancel-button {
