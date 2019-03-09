@@ -327,6 +327,7 @@ footer {
   padding: 3%;
   text-align: center;
   font-size: 80%;
+  overflow-y: hidden;
 }
 
 footer nav a {
