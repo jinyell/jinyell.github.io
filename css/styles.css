@@ -1,6 +1,7 @@
 *, *:before *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  padding-right: 17px;
   box-sizing: border-box;
 }
 
@@ -30,7 +31,7 @@ header {
   background-attachment: fixed;
   padding: 0;
   margin: 0;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 #Name{
