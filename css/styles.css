@@ -116,7 +116,7 @@ header {
   background-color: #2B2929;
   color: #FFF;
   height: auto;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 .AboutColLeft {
