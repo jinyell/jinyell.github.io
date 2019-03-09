@@ -15,7 +15,7 @@
 body {
   padding: 0;
   margin: 0;
-  overflow-y: hidden;
+  overflow-y: scroll;
   font-family: Geneva, Verdana, Georgia, sans-serif;
   font-size: 18px;
   background-color: #000;
@@ -29,12 +29,12 @@ header {
   background-attachment: fixed;
   padding: 0;
   margin: 0;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 #Name{
   font-family: Monaco, sans-serif;
-  margin-top: 45%;
+  margin-top: 15%;
   text-align: center;
   color: #FFF;
   font-size: 50px;
@@ -116,7 +116,7 @@ header {
   background-color: #2B2929;
   color: #FFF;
   height: auto;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .AboutColLeft {
@@ -206,7 +206,7 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .modal .modal-dialog {
