@@ -17,7 +17,7 @@
 body {
   padding: 0;
   margin: 0;
-  overflow-y: scroll;
+  overflow-y: hidden;
   font-family: Geneva, Verdana, Georgia, sans-serif;
   font-size: 18px;
   background-color: #000;
