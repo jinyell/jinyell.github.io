@@ -29,7 +29,7 @@ header {
   background-attachment: fixed;
   padding: 0;
   margin: 0;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 #Name{
@@ -116,7 +116,7 @@ header {
   background-color: #2B2929;
   color: #FFF;
   height: auto;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 .AboutColLeft {
@@ -328,7 +328,7 @@ footer {
   padding: 3%;
   text-align: center;
   font-size: 80%;
-  overflow:hidden;
+  overflow:scroll;
 }
 
 footer nav a {
