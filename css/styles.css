@@ -29,7 +29,7 @@ header {
   background-attachment: fixed;
   padding: 0;
   margin: 0;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 #Name{
@@ -116,7 +116,7 @@ header {
   background-color: #2B2929;
   color: #FFF;
   height: auto;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .AboutColLeft {
